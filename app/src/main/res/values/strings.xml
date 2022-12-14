@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Ruta del Cafe</string>
+    <string name="usuario">Usuario</string>
+    <string name="servicios_de_la_app">Servicios de la App</string>
+    <string name="flitros">Flitros</string>
+    <string name="buscar_en_la_app">Buscar en la App</string>
+    <string name="find">Find</string>
+    <string name="bienvenida">TE DAMOS LA BIENVENIDA</string>
+    <string name="lugares_turisticos">Lugares Turisticos</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="sugerencia">Sugerencias para ti</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="mensaje">Por favor selecciona la categoría que más te agrade</string>
+    <string name="todo">todo</string>
+    <string name="comida">CATEGORIA ALIMENTOS</string>
+    <string name="hospedaje">CATEGORIA HOSPEDAJE</string>
+    <string name="turismo">CATEGORIA TURISMO</string>
+    <string name="comida_msg">Por favor selecciona tu emprendimiento de comida favorito.</string>
+    <string name="hospedaje_msg">Por favor selecciona tu emprendimiento de hospedaje.</string>
+    <string name="turismo_msg">Por favor selecciona tu emprendimiento de turismo.</string>
+    <string name="TODO">TODO.</string>
+    <string name="SALIR">SALIR.</string>
+
+    <string name="Logo">Logo</string>
+    <string name="Home">Home</string>
+    <string name="Emprendimiento">Emprendimiento</string>
+
+    <string name="Ingresar">Ingresar.</string>
+
+    <string name="solVenado">Sol de Venado.</string>
+    <string name="chimchi">Chimchi de Corea.</string>
+    <string name="panaderiaPaulina">Panadería Paulina</string>
+    <string name="reservaNaturalElBosque">RESERVA NATURAL EL BOSQUE</string>
+    <string name="puertaDelCielo">Puerta del Cielo.</string>
+    <string name="compañiaUchima">COMPAÑÍA DE TRANSPORTE UCHIMA EXPRESS.</string>
+    <string name="quintaEsmeralda">QUINTA LA ESMERALDA.</string>
+    <string name="cayanaglamping">KAYANA GLAMPING.</string>
+    <string name="chimicorrea">KIMCHI DE COREA</string>
+    <string name="carpinteriaagustines">Carpinteria Agustines</string>
+    <string name="apocalypse">APOCALYPSE</string>
+    <string name="papas">PAPITAS AL PASO</string>
+    <string name="coffe">ANTAÑO COFFE GRILL</string>
+    <string name="qmorganico">QM ORGÁNICO</string>
+    <string name="ruedasyvida">RUEDAS Y VIDA</string>
+    <string name="bbqandbeer">THE SHACK BBQ AND BEER</string>
+    <string name="comoencasa">COMO EN CASA</string>
+    <string name="elviejorafa">EL VIEJO RAFA</string>
+    <string name="heladossanpedrito">HELADOS SAN PEDRITO</string>
+    <string name="lastruchasdelsalado">LAS TRUCHAS DEL SALADO</string>
+    <string name="laesquinadedonakaty">LA ESQUINA DE DOÑA KATTY</string>
+    <string name="cabanaelchangue">CABAÑA EL CHANGUE</string>
+    <string name="sillasdemontar">SILLAS DE MONTAR</string>
+    <string name="companiadetransportesanpedrodevilca">COMPAÑÍA DE TRANSPORTE SAN PEDRO DE VILCABAMBA</string>
+    <string name="asomujeres">ASOCIACIÓN DE MUJERES 23 DE JUNIO</string>
+    <string name="ASOAPICULTORES">ASOCIACIÓN DE DE APICULTORES DE SAN PEDRO DE VILCABAMBA</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_emprendimientos">emprendimientos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="ir">IR</string>
+    <string name="qu_quieres_probar">¿Qué quieres probar?</string>
+    <string name="elige_alguno_de_nuestros_emprendimientos">Elige alguno de nuestros emprendimientos</string>
+    <string name="quinta_la_esmeralda">QUINTA LA ESMERALDA</string>
+    <string name="sol_de_venado">SOL DE VENADO</string>
+    <string name="home">Home</string>
+    <string name="reserva">Reserva</string>
+    <string name="gracias">Espero verte que vuelvas pronto</string>
+    <string name="realizar_otra_compra">Realizar otra compra</string>
+
+    <string name="que_te_gustaria">¿Qué te gustaría adquirir?</string>
+    <string name="cuandas_va_a_reservar">¿Cuantas va a reservar?</string>
+    <string name="ingrese_cantidad">Ingrese la cantidad que desea</string>
+    <string name="realizar_compra">Realizar Compra</string>
+
+    <string name="saludos_sdv">Saludos desde Sol de Verano</string>
+    <string name="soldevenado_precio">Precio: 5$</string>
+    <string name="soldevenado_descripcion_p1">Cerveza Sol del Venado al grifo</string>
+</resources>

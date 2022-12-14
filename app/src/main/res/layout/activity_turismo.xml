@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".turismo">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:paddingHorizontal="@dimen/cardview_default_elevation"
+        android:text="@string/turismo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="295dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="100dp"
+        android:paddingHorizontal="@dimen/cardview_default_elevation"
+        android:text="@string/turismo_msg"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="85dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="20dp"
+        app:srcCompat="@drawable/logoapp"
+        android:contentDescription="@string/TODO" />
+
+    <Button
+        android:id="@+id/homeTurismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/home"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/SALIR"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/Ingresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/reservanaturalelbosque"
+                app:srcCompat="@drawable/reservanaturalelbosque" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/reservaNaturalElBosque"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/puertadelcielo"
+                app:srcCompat="@drawable/puertadelcielo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/puertaDelCielo"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/uchimaexpress"
+                app:srcCompat="@string/compañiaUchima" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/compañiaUchima"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/carpinteriaagustines"
+                app:srcCompat="@string/carpinteriaagustines" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/carpinteriaagustines"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/apocalypse1"
+                app:srcCompat="@string/apocalypse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/apocalypse"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/comapniadetransportessanpedrovilca"
+                app:srcCompat="@string/companiadetransportesanpedrodevilca" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/companiadetransportesanpedrodevilca"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/asomujeres"
+                app:srcCompat="@string/asomujeres" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/asomujeres"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/asoapicultores"
+                app:srcCompat="@string/ASOAPICULTORES" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ASOAPICULTORES"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".comida">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:paddingHorizontal="@dimen/cardview_default_elevation"
+        android:text="@string/comida"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="295dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="100dp"
+        android:paddingHorizontal="@dimen/cardview_default_elevation"
+        android:text="@string/comida_msg"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/Emprendimiento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoapp"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/homeComida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Home"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/salirComida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/SALIR"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:layout_width="423dp"
+        android:layout_height="460dp"
+        app:layout_constraintBottom_toTopOf="@+id/homeComida"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.175"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/chimicorrea"
+                app:srcCompat="@drawable/chimicorrea"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/chimchi"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/Ingresar" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/soldelvenado"
+                app:srcCompat="@drawable/panaderiapaulina"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/panaderiaPaulina"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/papas"
+                app:srcCompat="@drawable/papas"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/papas"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/panaderiapaulina"
+                app:srcCompat="@drawable/panaderiapaulina"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/panaderiaPaulina"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/coffee"
+                app:srcCompat="@drawable/coffee"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/coffe"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/qmorganico"
+                app:srcCompat="@drawable/qmorganico"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/qmorganico"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/ruedasyvida"
+                app:srcCompat="@drawable/ruedasyvida"
+                android:contentDescription="@string/Emprendimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ruedasyvida"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida007"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/elviejorafa"
+                app:srcCompat="@string/elviejorafa" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/elviejorafa"
+                android:textAlignment="center" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/bbqandbeer"
+                app:srcCompat="@string/bbqandbeer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/bbqandbeer"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida008"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/heladossanpedrito"
+                app:srcCompat="@string/heladossanpedrito" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/heladossanpedrito"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida009"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/truchasdelsalado"
+                app:srcCompat="@string/lastruchasdelsalado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/lastruchasdelsalado"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida010"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/laesquinadedonakaty"
+                app:srcCompat="@string/laesquinadedonakaty" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/laesquinadedonakaty"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida011"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/cabanaelchangue"
+                app:srcCompat="@string/cabanaelchangue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/cabanaelchangue"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida012"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/TODO"
+                android:maxWidth="300dp"
+                android:maxHeight="300dp"
+                android:src="@drawable/sillasdemontar"
+                app:srcCompat="@string/sillasdemontar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sillasdemontar"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/comida013"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/Ingresar"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
