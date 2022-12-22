@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logoapp"
+    android:backgroundTint="#DFC0C0"
+    android:visibility="visible"
     tools:context=".home"
     tools:visibility="visible">
 
@@ -12,9 +15,9 @@
         android:layout_width="349dp"
         android:layout_height="45dp"
         android:layout_marginTop="384dp"
-        android:textAlignment="center"
         android:paddingHorizontal="@dimen/cardview_default_elevation"
         android:text="@string/sugerencia"
+        android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,15 +138,6 @@
     </LinearLayout>
 
 
-    <ImageView
-        android:layout_width="85dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logoapp" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
@@ -162,7 +156,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
 
@@ -172,14 +166,14 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="94dp"
         android:layout_height="102dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/soldelvenado" />
@@ -188,7 +182,7 @@
         android:id="@+id/imageView2"
         android:layout_width="94dp"
         android:layout_height="102dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
